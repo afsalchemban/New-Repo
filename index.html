@@ -1,0 +1,140 @@
+
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	<h3>Invoice #1232</h3>
+</div>
+<div class="modal-body">
+
+<form class="form-horizontal" role="form" id="form_add_payment" method="post">
+  <input type="hidden" name="account" id="account" value="Clinic Accounts"  />
+
+<div class="form-group">
+    <label for="date" class="col-sm-2 control-label">Date</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control datepicker"  value="2017-07-24" name="date" id="date" datepicker data-date-format="yyyy-mm-dd" data-auto-close="true">
+    </div>
+  </div>
+
+<div class="form-group">
+    <label for="description" class="col-sm-2 control-label">Description</label>
+    <div class="col-sm-4">
+      <input type="text" id="description" name="description" class="form-control" value="Invoice 1232 Payment">
+    </div>
+	<label for="amount" class="col-sm-2 control-label">Amount</label>
+    <div class="col-sm-4">
+      <input type="text" id="amount" name="amount" class="form-control amount"   data-a-sign="SR " data-a-dec="." data-a-sep=","
+data-d-group="2" value="30">
+    </div>
+  </div>
+
+ 
+         <input type="hidden" id="cats" name="cats" value="Regular Income"  />
+ 
+  <div class="form-group">
+    <label for="payer_name" class="col-sm-2 control-label">Payer</label>
+    <div class="col-sm-4">
+      <input type="text" id="payer_name" name="payer_name" class="form-control" value="محمد علي صالح ال يحي" disabled>
+    </div>
+	 <label for="payer_name" class="col-sm-2 control-label">Cash</label>
+    <div class="col-sm-4">
+      <input type="text" id="cash" name="cash" class="form-control amount">
+    </div>
+  </div>
+  
+   <div class="form-group">
+    <label for="payer_name" class="col-sm-2 control-label">Span</label>
+    <div class="col-sm-4">
+      <input type="text" id="span" name="span" class="form-control amount" value="">
+    </div>
+	<label for="payer_name" class="col-sm-2 control-label">Credit</label>
+    <div class="col-sm-4">
+      <input type="text" id="credit" name="credit" class="form-control amount" value="0.00">
+    </div>
+  </div>
+  
+  <div class="form-group">
+	<label for="payer_name" class="col-sm-2 control-label">Bank Cheque</label>
+    <div class="col-sm-4">
+      <input type="text" id="bankcheque" name="bankcheque" class="form-control amount">
+    </div>
+    <label for="payer_name" class="col-sm-2 control-label">Balance</label>
+    <div class="col-sm-4">
+      <input type="text" id="balance" name="balance" class="form-control amount" value="">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="payer_name" class="col-sm-2 control-label">Visa</label>
+    <div class="col-sm-4">
+      <input type="text" id="visa" name="visa" class="form-control amount" value="">
+    </div>
+	<label for="payer_name" class="col-sm-2 control-label">Mastercard</label>
+    <div class="col-sm-4">
+      <input type="text" id="mastercard" name="mastercard" class="form-control amount" value="">
+    </div>
+  </div>
+ 
+  <div class="form-group">
+    <label for="payer_name" class="col-sm-2 control-label">Ins. Credit</label>
+    <div class="col-sm-4">
+      <input type="text" id="inscredit" name="inscredit" class="form-control amount" value="">
+    </div>
+	<label for="payer_name" class="col-sm-2 control-label">Pt. Credit</label>
+    <div class="col-sm-4">
+      <input type="text" id="ptcredit" name="ptcredit" class="form-control amount" value="">
+    </div>
+  </div>
+ 
+   <!--<div class="form-group">
+    <label for="subject" class="col-sm-2 control-label">Method</label>
+    <div class="col-sm-10">
+      <select id="pmethod" name="pmethod">
+                                <option value="">Select Payment Method</option>
+
+
+                                <option value="Cash">Cash</option><option value="Check">Check</option><option value="Credit Card">Credit Card</option><option value="Debit">Debit</option><option value="Electronic Transfer">Electronic Transfer</option>
+
+
+                            </select>
+                            
+                            
+    </div>
+	</div>-->
+  
+  
+
+
+   <!--<div class="form-group">
+   
+   <table> <tr><td valign="top">Cash</td><td valign="top">  <input type="text" id="cash" name="cash" class="form-control amount" ></td> </tr>
+   <tr><td valign="top">Span</td><td valign="top">  <input type="text" id="span" name="span" class="form-control amount" ></td> </tr>
+   <tr><td valign="top">Credit</td><td valign="top">  <input type="text" id="credit" name="credit" class="form-control amount" ></td> </tr>
+    <tr><td valign="top">Visa</td><td valign="top">  <input type="text" id="visa" name="visa" class="form-control amount" ></td> </tr>
+     <tr><td valign="top">Mastercard</td><td valign="top">  <input type="text" id="mastercard" name="mastercard" class="form-control amount" ></td> </tr>
+   </table>
+   </div>
+   <div class="form-group">
+    <label for="subject" class="col-sm-2 control-label">Method</label>
+    <div class="col-sm-10">
+      <select id="pmethod" name="pmethod">
+                                <option value="">Select Payment Method</option>
+
+
+                                <option value="Cash">Cash</option><option value="Check">Check</option><option value="Credit Card">Credit Card</option><option value="Debit">Debit</option><option value="Electronic Transfer">Electronic Transfer</option>
+
+
+                            </select>
+                            
+                            
+    </div>
+  </div>-->
+
+
+</form>
+
+</div>
+<div class="modal-footer">
+<input type="hidden" id="payer" name="payer" value="1071">
+	<button id="save_payment" class="btn btn-primary">Save</button>
+
+		<button type="button" data-dismiss="modal" class="btn">Close</button>
+</div>
